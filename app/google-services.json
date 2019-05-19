@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "729602414513",
+    "firebase_url": "https://janaki-d2ea5.firebaseio.com",
+    "project_id": "janaki-d2ea5",
+    "storage_bucket": "janaki-d2ea5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:729602414513:android:573502a4c5f207ea",
+        "android_client_info": {
+          "package_name": "com.example.janaki"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "729602414513-b1q81dfjgdtt1oqd9vf2sfr7d2m5nfbb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpPJ7b1Plz7T--YI3QZkDMeDbSl8eGK6A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "729602414513-b1q81dfjgdtt1oqd9vf2sfr7d2m5nfbb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
