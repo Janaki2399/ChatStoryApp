@@ -29,7 +29,7 @@ public class MessageAdapter extends ArrayAdapter<ChatBubble> {
         ViewHolder holder;
         LayoutInflater inflater = (LayoutInflater) activity.getSystemService(Activity.LAYOUT_INFLATER_SERVICE);
 
-        int layoutResource = 0; // determined by view type
+        int layoutResource = 0; 
         ChatBubble ChatBubble = getItem(position);
         int viewType = getItemViewType(position);
 
@@ -74,14 +74,13 @@ public class MessageAdapter extends ArrayAdapter<ChatBubble> {
 
     @Override
     public int getViewTypeCount() {
-        // return the total number of view types. this value should never change
-        // at runtime. Value 2 is returned because of left and right views.
+
         return 50;
     }
 
     @Override
     public int getItemViewType(int position) {
-        // return a value between 0 and (getViewTypeCount - 1)
+   
         return position%50;
     }
 
