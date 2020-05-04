@@ -14,6 +14,6 @@ This App has the following features
     If no, it replaces the screen with a new fragment, giving internet connectivity error, having a button of retry. 
     On Clicking retry chat screen is back and the flow shall be the same as above. 
     
-6.The chat screen is replaced with a new fragment whenever internet reachability is turned off.  
+6.The chat screen is replaced with a new fragment whenever internet reachability is turned off.   
 
 7.Entire chat is not reloaded on adding the new message, just a new message is inserted in the last of the chat. 
